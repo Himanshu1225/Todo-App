@@ -2,7 +2,7 @@
     "name": "Todo App",
     "short_name": "TODO",
     "start_url": ".",
-    "display": "standalone",
+    "display": "fullscreen",
     "background_color": "#dd7c61",
     "description": "A todo list app.",
     "icons": [
