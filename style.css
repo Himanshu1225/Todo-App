@@ -57,6 +57,7 @@ form button:hover{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    min-height: 50vh;
 }
 .todo-list{
     min-width: 30%;
@@ -166,8 +167,8 @@ select{
 
 footer{
     position: sticky;
-    bottom: 0;
-    background: black;
+    /* bottom: 0; */
+    /* background: whitesmoke; */
     padding: 6px;
     width: 100%;
 }
@@ -176,6 +177,7 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: white;
+    color: rgb(245, 238, 238);
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
