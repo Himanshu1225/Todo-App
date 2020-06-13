@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
+
 }
 
 body{
@@ -29,12 +29,14 @@ form input, form button{
     font-size: 2rem;
     border: none;
     background: white;
-    text-align: center;
+    /* text-align: center; */
     height: 48px;
 }
 
 form input {
-    width: 25%;
+    width: 60%;
+    font-size: 1.3rem;
+    outline: none;
 }
 
 
@@ -163,7 +165,7 @@ select{
 
 
 footer{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     background: black;
     padding: 6px;
@@ -177,3 +179,4 @@ footer{
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
