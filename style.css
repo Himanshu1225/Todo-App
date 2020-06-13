@@ -97,9 +97,9 @@
 
     .todo-item{
         padding: 0rem 0.5rem;
-        overflow: scroll;
+        overflow: auto;
         height: auto;
-        /* overflow-wrap: break-word; */
+        overflow-wrap: break-word;
     }
 
     .fa-trash, .fa-check{
